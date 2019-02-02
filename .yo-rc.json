@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "UptMon",
+    "packageName": "com.uptmon.application",
+    "packageFolder": "com/uptmon/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mariadb",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "sk",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "ZmZlYjFkZGIyMGFiMGNiYzAxZGZjYWU5MWZiMWRjYTcxNTUyZjg0YjFmY2JmYmE0MGNlMGE3NDFhMTdiZDkzYmJiN2QyNjUwOGY3NzU0MDBmOWJmYWVlY2YyOTE2NzgwOGZkOTU5ODhjNmZhYTM2NGViOGQwM2E2NDhiOTY3Yjk=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "JozefJarosciak",
+  "repository-name": "uptmon"
+}
